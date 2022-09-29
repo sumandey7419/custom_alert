@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+body{
+    background: url(5bd2b872869b5-wallpaper-preview.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+
+form{
+    background:none;
+    margin-top: 5%;
+    width:35%;
+    padding-left: 10%;
+}
+input{
+    border: none;
+    background-color: white;
+    border-bottom: 3px solid black;
+    width: 50%;
+}
+button{
+    margin-top: 3%;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.html{
+    height: 200px;
+    height: 100%;
+}
+.alert.success {
+    padding: 20px;
+    background-color:orange;
+    color: black;
+    width: 45%;
+    height: 22px;
+    float: right;
+    margin-top: -25%;
+}
+h5{
+    margin-top: 0.4%;
+}
+  
+
+.alert.warning {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    width: 45%;
+    height: 22px;
+    float: right;
+    margin-top: -18%;
+}  
+
+
+.alert.info {
+    padding: 20px;
+    background-color: greenyellow;
+    color: black;
+    width: 45%;
+    height: 22px;
+    float: right;
+    margin-top: -11%;
+}  
+
+
+.alert {
+    padding: 20px;
+    background-color: red;
+    color: black;
+    width: 45%;
+    height: 22px;
+    float: right;
+    margin-top: -4%;
+}  
+#c1:hover{
+    background-color: blueviolet;
+}
+</style>
+<body class="background" style="font-family:sans-serif ;">
+
+    <form>
+        <h1 style="font-size:50px;">Custom Alert</h1>
+        <h4>Name</h4>
+        <input type="text" placeholder="Enter your name">
+        <h4>Age</h4>
+        <input type="number" placeholder="Enter your age">
+        <h4>Email</h4>
+        <input type="email" placeholder="Enter your email">
+        <br>
+         <button id="c1" type="submit">Submit</button>
+    </form>
+    
+    <img src="./htmlimg.png" style="height: 100%; width:110px; padding-left:13%; margin-top:3%">
+    <img src="./cssimg.png" style="height: 100%; width:80px; padding-left:2%; margin-top:3%">
+    <img src="./jsimage.png" style="height: 100%; width:110px; margin-left:-165px; margin-bottom:-7.5%">
+    <div class="alert success"> 
+        <h5>✅Your registration was successfully!</h5>
+      </div>
+      <div class="alert warning">
+        <h5>⚠️Caution, this field is not correct!</h5>
+      </div>
+      <div class="alert info">
+        <h5>❌You need to fill out all the fields!</h5>
+      </div>
+      <div class="alert">
+        <h5>✘The information you have entered is incorrect or incomplete!</h5>
+      </div>
+    
+</body>
+</html>
